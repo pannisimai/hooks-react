@@ -1,14 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import ClassRefHook from "./components/ClassRefHook";
+import ReducerCounter from "./components/ReducerCounter";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ClassRefHook />
+        <ReducerCounter />
       </header>
     </div>
   );
